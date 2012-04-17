@@ -3,7 +3,15 @@
 	<head>
 		<title>illuminoscillate</title>
 		<link href="css/base.css" rel="stylesheet" type="text/css">
+		<link href="css/jquery.qtip.min.css" rel="stylesheet" type="text/css">
 		<link href='http://fonts.googleapis.com/css?family=Advent+Pro:100' rel='stylesheet' type='text/css'>
+		<link href='css/sc-player-minimal.css' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+		<script src="javascript/soundcloud.player.api.js" type="text/javascript"></script>
+		<script src="javascript/sc-player.js" type="text/javascript"></script>
+		<script src="javascript/jquery.youtube.channel.js" type="text/javascript"></script>
+		<script src="javascript/jquery.qtip.min.js" type="text/javascript"></script>
+		<script src="javascript/base.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div id=wrapper>
@@ -12,14 +20,17 @@
 					<div id="center"><h1>illuminoscillate</h1></div>
 				</div>
 			</div>
+			<div id="footer"><span>&copy; 2012 Illuminoscillate</span></div>
 			<div id="social">
 				<ul>
-					<li><a class="discogs" href="http://www.discogs.com/artist/Illuminoscillate" title="Discogs" target="_blank"></a></li>
-					<li><a class="soundcloud" href="http://soundcloud.com/illuminoscillate" title="Soundcloud" target="_blank"></a></li>
-					<li><a class="bandcamp" href="http://illuminoscillate.bandcamp.com/" title="Bandcamp" target="_blank"></a></li>
-					<li><a class="youtube" href="http://www.youtube.com/user/illuminoscillate/feed" title="Youtube" target="_blank"></a></li>
+					<li><a class="discogs outlink" href="http://www.discogs.com/artist/Illuminoscillate" title="Discogs" target="_blank"></a></li>
+					<li><a class="bandcamp outlink" href="http://illuminoscillate.bandcamp.com/" title="Bandcamp" target="_blank"></a></li>
+					<li><a class="youtube outlink" href="http://www.youtube.com/user/illuminoscillate/feed" title="Youtube" target="_blank"></a></li>
+					<li><a class="soundcloud outlink" href="http://soundcloud.com/illuminoscillate" title="Soundcloud" target="_blank"></a></li>
 				</ul>
 			</div>
 		</div>
+		<div id="youtubevideos">Youtube recent</div>
+		<div id="soundcloudstream">Soundcloud recent<a href="http://soundcloud.com/illuminoscillate" class="sc-player">Soundcloud</a></div>
 	</body>
 </html>
