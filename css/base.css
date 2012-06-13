@@ -19,13 +19,15 @@ div#social li a.discogs { background-position: 0 -2195px; }
 div#social li a.discogs:hover { background-position: -38px -2195px; }
 div#social li a.bandcamp { background-position: 0 -2233px; }
 div#social li a.bandcamp:hover { background-position: -38px -2233px; }
+div#social li a.adx { background-position: 0 -2270px; }
+div#social li a.adx:hover { background-position: -38px -2270px; }
 
 div#footer { color: #aaa; position: fixed; left: 0; bottom: 2px; width: 100%; text-align: center; }
 
 div.ui-tooltip-tipsy a { color: white; text-decoration: none; }
 div.ui-tooltip-tipsy a:hover { color: gray; }
 
-div#soundcloudstream { display: none; width: 220px; height: 180px; margin-right: 20px; }
+div#soundcloudstream { display: none; width: 220px; height: 195px; margin-right: 20px; }
 
 div#youtubevideos { display: none; }
 div#youtubevideos ul#channel_list { list-style-type: none; margin: 0; padding: 0;  }

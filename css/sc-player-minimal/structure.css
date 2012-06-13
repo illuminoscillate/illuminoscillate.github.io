@@ -13,7 +13,11 @@
 /* Artworks */
 
 .sc-player .sc-artwork-list{
-  display: none;
+  width: 40px;
+  height: 40px;
+  top: 135px;
+  position: relative;
+  float: left;
 }
 
 .sc-player .sc-artwork-list li{

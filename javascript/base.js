@@ -1,4 +1,13 @@
 $(document).ready(function() {
+  $('a.adx').qtip({
+    content: { text: 'ADX Records' },
+    position: {
+      my: 'bottom right',
+      at: 'top center',
+    },
+    style: { classes: 'ui-tooltip-shadow ui-tooltip-tipsy' },
+  });
+
   $('a.discogs').qtip({
     content: { text: 'Discogs' },
     position: {
