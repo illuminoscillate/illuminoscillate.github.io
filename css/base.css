@@ -1,36 +1,15 @@
-html, body, div#wrapper { font-family: 'Advent Pro', 'Helvetica', 'Verdana', sans-serif; margin: 0; padding: 0; height: 100%; width: 100%; }
-div.floater { float: left; height: 50%; margin-bottom: -356px; }
-div#background { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-div#background div#left { position: relative; height: 712px; width: 50%; float: left; clear: both; background: url('../images/left.jpg') repeat-x;}
-div#background div#right { position: relative; height: 712px; width: 50%; float: right; background: url('../images/right.jpg') repeat-x;}
-div#center { position: relative; width: 711px; height: 712px; margin-left: auto; margin-right: auto; clear: both; text-align: center; background: url('../images/center.jpg') no-repeat; overflow: hidden; }
-div#center h1 { font-weight: 100; font-size: 6em; color: #ccc; }
-
-div#social { position: fixed; bottom: 10px; right: 10px; }
-div#social ul { list-style-type: none; margin: 0; padding: 0; }
-div#social ul li { list-style-type: none; margin: 0; padding: 0; display: inline; }
-div#social li a { background: url('../images/socialsprite.png') no-repeat 0 0; width: 32px; height: 32px; display: inline-block; overflow: hidden; margin: 4px;  -webkit-transition: opacity 0.4s ease-in-out; -moz-transition: opacity 0.4s ease-in-out; -o-transition: opacity 0.4s ease-in-out; -ms-transition: opacity 0.4s ease-in-out;divtransition: opacity 0.4s ease-in-out; opacity: 0.6; }
-div#social li a:hover { opacity: 1; }
-div#social li a.soundcloud { background-position: 0 -1017px; }
-div#social li a.soundcloud:hover { background-position: -38px -1017px; }
-div#social li a.youtube { background-position: 0 -219px; }
-div#social li a.youtube:hover { background-position: -38px -219px; }
-div#social li a.discogs { background-position: 0 -2195px; }
-div#social li a.discogs:hover { background-position: -38px -2195px; }
-div#social li a.bandcamp { background-position: 0 -2233px; }
-div#social li a.bandcamp:hover { background-position: -38px -2233px; }
-div#social li a.adx { background-position: 0 -2270px; }
-div#social li a.adx:hover { background-position: -38px -2270px; }
-
-div#footer { color: #aaa; position: fixed; left: 0; bottom: 2px; width: 100%; text-align: center; }
-
-div.ui-tooltip-tipsy a { color: white; text-decoration: none; }
-div.ui-tooltip-tipsy a:hover { color: gray; }
-
-div#soundcloudstream { display: none; position: fixed; bottom: 0; width: 516px; height: 450px;  }
-
-div#youtubevideos { display: none; }
-div#youtubevideos ul#channel_list { list-style-type: none; margin: 0; padding: 0;  }
-div#youtubevideos ul#channel_list li.video { display: inline-block; margin: 0; padding: 0 }
-div#youtubevideos ul#channel_list li.video img { width: 40px; height: 40px; padding: 2px; margin: 2px; background: #333; }
-div#youtubevideos ul#channel_list li.video span { display: none; }
+body {
+  color:#808080;
+  background-color:#000000;
+  font-family:'Orbitron', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+body.news {
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+a  { color:#808080; }
+a:visited { color:#808080; }
+a:active { color:#808080; }
+/* Don't underline links */
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover { color:#808080; text-decoration: underline; }
