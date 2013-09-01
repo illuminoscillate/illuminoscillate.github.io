@@ -18,12 +18,11 @@ $(document).ready(function() {
   });
 
   $('a.soundcloud').qtip({
-    content: { text: $('#soundcloudstream') },
+    content: { text: 'SoundCloud' },
     position: {
       my: 'bottom right',
       at: 'top center',
     },
-    hide: { event: 'mouseenter', target: $('#center, a.outlink').not('.soundcloud') },
     style: { classes: 'ui-tooltip-shadow ui-tooltip-tipsy' },
   });
 
